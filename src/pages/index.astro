@@ -1,0 +1,105 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <header class="fixed w-full z-40 top-0 border-b">
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <div
+        class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4"
+      >
+        <a class="flex items-center" href="">
+          <img src="/logo.png" class="h-10 mr-3" alt="" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap"
+            >AIRE</span
+          >
+        </a>
+        <div class="flex items-center">
+          <a href="#" class="text-md hover:underline">Contáctanos</a>
+        </div>
+      </div>
+    </nav>
+    <nav class="bg-gray-200">
+      <div class="max-w-screen-xl px-4 py-3 mx-auto">
+        <div class="flex items-center">
+          <ul class="flex flex-row font-medium mt-0 mr-6 space-x-8 text-sm">
+            <li>
+              <a
+                href="#"
+                class="text-gray-900 dark:text-white hover:underline"
+                aria-current="page">Inicio</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white hover:underline"
+                >Servicios</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-gray-900 dark:text-white hover:underline"
+                >Acerca de Nosotros</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section
+      class="bg-black h-screen w-screen text-center relative overflow-hidden"
+    >
+      <div
+        class="z-30 relative h-full flex flex-col items-center justify-center"
+      >
+        <h1
+          class="mb-4 text-4xl font-extrabold uppercase tracking-tight leading-none text-white md:text-5xl lg:text-6xl"
+        >
+          Tu solución en climatización
+        </h1>
+        <p
+          class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48"
+        >
+          AIRE PROYECTO Y SOLUCIONES S.A. DE C.V.
+        </p>
+
+        <!-- <div class="">
+          <a
+            href="#"
+            class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-yellow-500 hover:bg-yellow-400 focus:ring-4 focus:ring-white"
+          >
+            Cotiza Ahora
+            <svg
+              class="w-3.5 h-3.5 ml-2"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 14 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 5h12m0 0L9 1m4 4L9 9"></path>
+            </svg>
+          </a>
+          <a
+            href="#"
+            class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400"
+          >
+            Conocenos
+          </a>
+        </div> -->
+      </div>
+      <div class="absolute top-0 bottom-0 h-full w-full z-10">
+        <img
+          src="/workerAC.jpg"
+          alt=""
+          class="object-center object-cover w-full h-full opacity-40"
+        />
+      </div>
+    </section>
+  </main>
+</Layout>
